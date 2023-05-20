@@ -5,7 +5,8 @@ def first_func():
     def second_func():
         return 'return second function'
 
-    return second_func()
+    return second_func
 
 
-print(first_func())
+result_func = first_func()
+print(result_func())
