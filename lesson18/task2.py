@@ -22,7 +22,6 @@ class Boss:
     @property
     def workers(self):
         return self._workers
-
     def get_workers(self):
         return self._workers
 
